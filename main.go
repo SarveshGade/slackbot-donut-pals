@@ -28,7 +28,7 @@ func main() {
 		debug    bool
 	)
 
-	flag.StringVar(&apiToken, "token", "xoxb-6647830036849-6635213600034-m5waqPs06t9DshxD6krf56nR", "Your Slack API Token")
+	flag.StringVar(&apiToken, "token", "SLACK_TOKEN", "Your Slack API Token")
 	flag.BoolVar(&debug, "debug", false, "Show JSON output")
 	flag.Parse()
 
